@@ -1,0 +1,177 @@
+@media all and (max-width:1200px){
+	.container{
+		padding: 0 2rem;
+		box-sizing: border-box;
+
+	}
+}
+@media all and (max-width:991px){
+      /* Print-formats-area */
+      .print-formats {
+            grid-template-columns: repeat(2,1fr);
+      }
+      .formats-top {
+            flex-direction: column;
+      }
+      .formats-image {
+            width: 100%;
+            padding-bottom: 1rem;
+      }
+      .formats-text p{
+            padding-left: 0;
+      }
+      .formats-image img {
+            height: 200px;
+            width: 100%;
+      }
+      /* choose-area */
+      .choose-content h2{
+            font-size: 3.5rem;
+      }
+      /* populer-printed */
+      .populer-printed {
+            grid-template-columns: repeat(3,1fr);
+      }
+      
+}
+@media all and (max-width:768px){      
+      .pd{
+            padding: 2rem 0;
+      }
+      h1{
+            font-size: 3.2rem;
+      }
+      p{
+            font-size: 1.4rem;
+      }
+      .banner-content h1{
+            max-width: 300px;
+            margin: auto;
+
+      }
+      h2{
+            font-size: 2.4rem;
+      }
+      .header-top-content .logo{
+            margin: auto;
+      }
+      .header-top-content p {
+            text-align: center;
+            max-width: 270px;
+            margin: auto;
+      }
+       /****2. Printed area ****/
+       .printed-title {
+            text-align: center;
+            padding-bottom: 4rem;
+      }
+      .printed-carousel > .owl-nav {
+            right: 50%;
+            transform: translateX(50%);
+      }
+      /* Print-formats-area */
+      .formats-buttons-area {
+            padding: 2rem 0;
+            justify-content: start;
+            align-items: flex-start;
+            flex-direction: column;
+      }
+      .formats-buttons-area .formatsbtn {
+            margin-top: 1rem;
+      }
+       /****4. cryptos-area ****/
+      .cryptos {
+            grid-template-columns: repeat(3,1fr);
+      }
+      .single-crytos:nth-child(7) {
+            grid-column: span 3;
+            text-align: center;
+      }
+      .single-crytos img {
+            height: 100px;
+            width: auto;
+      }
+      /* choose-area */
+      .choose-image {
+            margin-top: 2rem;
+      }
+      /* footer-area */
+      .footer-left {
+            text-align: center;
+            padding-bottom: 2rem;
+      }
+      .footer-logo {
+            margin: auto;
+      }
+      .footer-icon a {
+            margin: 0 1rem;
+      }
+       /****6.populer-page ****/
+      .col-md-6.header-button-area {
+            order: -1;
+      }
+      /* populer-printed */
+      .populer-printed {
+            grid-template-columns: repeat(2,1fr);
+      }
+        /********inter-page********/
+      .club {
+            grid-template-columns: repeat(1,1fr);
+      }
+      .club-image {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+      }
+      /* shipping-page */
+      /* cart-form */
+      .cart-form {
+            margin-left: 0rem;
+            margin-top: 3rem;
+      }
+      /* checkout-page */
+      .cart-right {
+            margin-left: 0rem;
+      }
+}
+@media all and (max-width:576px){
+      /* footer-area */
+      .footer-right{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 2rem;
+      }
+      /* populer-printed */
+      .populer-printed {
+            grid-template-columns: repeat(1,1fr);
+      }
+      /* inter-page */
+      .club-area span {
+            height: 30%;
+            width: 430px;
+      }
+      
+}
+@media all and (max-width:480px){
+       /* Print-formats-area */
+       .print-formats {
+            grid-template-columns: repeat(1,1fr);
+      }
+      .formats-image img{
+            width: 100%;
+      }
+      .formats-buttons-area {
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: inherit;
+      }
+      /* choose area */
+      .choosebtn {
+            width: 100%;
+      }
+      /* inter-page */
+      .club-image {
+            height: 300px;
+            width: 300px;
+      }
+}
